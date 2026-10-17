@@ -30,7 +30,7 @@
     "@tachibana-shin/eslint-config": "^1.1.1",
     "@types/node": "^20.9.0",
     "@typescript-eslint/parser": "^6.11.0",
-    "bumpp": "^9.2.0",
+    "bumpp": "^12.3.0",
     "esbuild": "^0.19.5",
     "esbuild-runner": "^2.2.2",
     "eslint": "^8.53.0",
