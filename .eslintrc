@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "@tachibana-shin/eslint-config"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "tsconfig.json",
+    "sourceType": "module"
+  },
+  "rules": {
+    "n/no-unpublished-import": "off",
+    "functional/prefer-immutable-types": "off",
+    "functional/no-classes": "off",
+    "no-undef": "off",
+    "n/no-unsupported-features/es-builtins": [
+      "error",
+      {
+        "version": ">=16.0.0",
+        "ignores": []
+      }
+    ],
+    "no-void": ["error", { "allowAsStatement": true }],
+    "@typescript-eslint/no-unsafe-member-access": "off",
+    "@typescript-eslint/no-unsafe-call": "off"
+  }
+}
